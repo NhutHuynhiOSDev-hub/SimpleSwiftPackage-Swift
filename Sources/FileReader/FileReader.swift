@@ -1,6 +1,6 @@
 import Foundation
 
-class FileReader {
+public struct FileReader {
     
     public func helloWord() { print("HELLO WORLD!") }
 
