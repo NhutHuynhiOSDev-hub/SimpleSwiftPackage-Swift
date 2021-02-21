@@ -8,7 +8,7 @@ let package = Package(
   
     dependencies: [
     
-        .package(url: "https://github.com/NhutHuynhiOSDev-hub/SimpleSwiftPackage", from: "1.0.1"),
+        .package(name: "FileReader", url: "https://github.com/NhutHuynhiOSDev-hub/SimpleSwiftPackage", from: "1.0.1")
     ],
   
     targets: [
