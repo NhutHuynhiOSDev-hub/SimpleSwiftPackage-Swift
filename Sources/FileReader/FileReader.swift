@@ -1,8 +1,10 @@
 import Foundation
 
-public struct FileReader {
+class FileReader {
+    
+    public func helloWord() { print("HELLO WORLD!") }
 
-    public func read(fileName: String) -> String? {
+    func read(fileName: String) -> String? {
    
         let fileManager         = FileManager.default
         let currentDirectoryURL = URL(fileURLWithPath: fileManager.currentDirectoryPath)
