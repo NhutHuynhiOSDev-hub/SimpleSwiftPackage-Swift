@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FileReader",
+        "repositoryURL": "https://github.com/NhutHuynhiOSDev-hub/SimpleSwiftPackage",
+        "state": {
+          "branch": null,
+          "revision": "b8a6008c688ff97b73d76d487b7596401f804515",
+          "version": "1.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
