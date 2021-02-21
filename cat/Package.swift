@@ -5,12 +5,13 @@ import PackageDescription
 
 let package = Package(
     name: "cat",
+  
     dependencies: [
-        
-        .package(name: "FileReader", url: "https://github.com/NhutHuynhiOSDev-hub/SimpleSwiftPackage", from: "1.0.1")
+    
+        .package(url: "https://github.com/NhutHuynhiOSDev-hub/SimpleSwiftPackage", from: "1.0.1"),
     ],
+  
     targets: [
-        
         .target(
             name: "cat",
             dependencies: ["FileReader"]),
