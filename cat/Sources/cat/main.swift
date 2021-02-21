@@ -1,8 +1,12 @@
 import FileReader
+import PlayingCard
 
 for argument in CommandLine.arguments {
 
     guard argument != "arg1" else { continue }
-
-    if let fileContents = FileReader.read(fileName: argument) { print(fileContents) }
+    
+    guard playCard != PlayingCard.init(rank: <#T##Rank#>, suit: <#T##Suit#>) else { continue }
+    
+    if let fileContents = FileReader.
 }
+

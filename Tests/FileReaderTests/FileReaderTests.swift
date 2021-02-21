@@ -4,7 +4,7 @@ import XCTest
 final class FileReaderTests: XCTestCase {
     func testExample() {
         
-        XCTAssertEqual(FileReader.read(fileName: "hello.txt"), "Hello World")
+        XCTAssertEqual(FileReader.read(fileName: "hello.swift"), "Hello Nhut")
     }
 
     static var allTests = [

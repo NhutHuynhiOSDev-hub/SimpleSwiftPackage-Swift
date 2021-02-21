@@ -1,6 +1,6 @@
 import Foundation
 
-class FileReader {
+public struct FileReader {
 
     static func read(fileName: String) -> String? {
    
