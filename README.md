@@ -1,3 +1,4 @@
-# FileReader
+# Simple Swift Package 
 
-A description of this package.
+This is simple example for serverside with swif using Vapor
+For more information about swift package: https://medium.com/macoclock/backend-developing-with-swift-7456bde10f91
